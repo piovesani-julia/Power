@@ -11,4 +11,4 @@ Podia ser a biqueira online<br/>
 - carrosel do bootstrap e materialize para "embelezar" o site<br/>
 - sugestão de historias <br/>
 - pag para cronicas de leitores, podendo ou nao se identificar e livro com as melhores cronicas card para as pessoas com as melhores cronicas e que entraram no livro do mes<br/>
-<i><p>Obs: Terminei os livros q tinha em casa. ass: '-'</p></i>
+<i><p>Obs: Terminei os livros q tinha em casa. ass: <b>'-'</b></p></i>
