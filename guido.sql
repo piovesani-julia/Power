@@ -26,10 +26,10 @@ primary key (isbn)
 insert into livros (titulo,nautor,descr,editora)
 values  ('A CUlpa é das Estrelas ','John Green','foda -se',''),
 		('Harry Potter e o Prisioneiro de Azkarban',' J.K.Rowling','DFC','Rocco'),
-        ('Um Estudo em Vermelho','Artur Conon Doyle','','Zahar'),
-        ('Divirgente','Veronica Roth','','Rocco'),
         ('Insurgente','Veronica Roth','','Rocco'),
-		('Convigente','Veronica Roth','','Rocco'),
+        ('Divirgente','Veronica Roth','n li','Rocco'),
+        ('Insurgente','Veronica Roth','n li','Rocco'),
+		('Convigente','Veronica Roth','n li','Rocco'),
 		('A Seleção','Kiera Cass','','Seguinte'),
 		('A Elite','Kiera Cass','','Seguinte'),
         ('A Escolha ','Kiera Cass','','Seguinte'),
@@ -39,4 +39,6 @@ values  ('A CUlpa é das Estrelas ','John Green','foda -se',''),
 		('Os Relógios ','Agatha Cristie ','Um caso de Hercule Poirot','GloboLivros'),
 		('Contos de Kolimá','Varlam Chalámov','nunca nem li','editora34'),
         ('Clube Da Luta','Chuck Palahniuk','','LeYa');
-	
+	       ('Extraordinário','R.J.Palacio','Intriseca','Ñ julgue um menino pela cara');
+       
+/*('Um Estudo em Vermelho','Artur Conon Doyle','','Zahar'),*/
