@@ -54,6 +54,15 @@ values ('A Droga do Amor','Pedro' ,'Bandeira ','Editora Moderna',''),
        ('Como Eu Era Antes de Você','Jojo' ,'Moyes','Intrisca',''),
        ('Estação Brasil ','Domingos' ,'Pellegrini','FTD',''),
        ('Extraordinário','R.','J.Palacio','Intriseca','Ñ julgue um menino pela cara');
-       
 insert into livros(titulo,autor,sobrenome,editora,descr)
-values ('Um Estudo em Vermelho','Artur' ,'Conon Doyle','','Zahar');
+values  ('Um Estudo em Vermelho','Artur' ,'Conon Doyle','','Zahar'),
+	    ('Os Sinal dos Quatro','Artur' ,'Conon Doyle','','Zahar'),
+        ('As aventuras de Sherlock Holmes','Artur' ,'Conon Doyle','','Zahar'),
+        ('Memórias de Sherlock Holmes','Artur' ,'Conon Doyle','','Zahar'),
+        ('O cão dos Baskerville','Artur' ,'Conon Doyle','','Zahar'),
+        ('A volta de Sherlock Holmes','Artur' ,'Conon Doyle','','Zahar'),
+        ('O Vale do Medo','Artur' ,'Conon Doyle','','Zahar'),
+        ('Os Últimos Casos de Sherlock Holmes','Artur' ,'Conon Doyle','','Zahar'),
+        ('Histórias de Sherlock Holmes','Artur' ,'Conon Doyle','','Zahar');
+        
+select * from livros order by titulo,sobrenome asc;
