@@ -12,4 +12,4 @@ Podia ser a biqueira online<br/>
 - sugestão de historias <br/>
 - pag para cronicas de leitores, podendo ou nao se identificar e livro com as melhores cronicas card para as pessoas com as melhores cronicas e que entraram no livro do mes<br/>
 ============================================================================<br/>
-<i><p>Obs: Terminei os livros q tinha em casa. ass: <b><font color ="blue"> '-'</font></b> </p></i><br/>
+<i>Obs: Terminei os livros q tinha em casa. ass: <b><font color ="blue"> '-'</font></b></i><br/>
