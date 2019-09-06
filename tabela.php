@@ -1,5 +1,5 @@
 <?php
-      include_once './conexao.php';
+include_once './conexao.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -17,15 +17,15 @@
 </head>
 
 <body>
-<div class="container">
+    <div class="container">
         <div class="card-panel color blue text-cyan  text-lighten-5 ">
             <h2> Tabela de livros </h2>
         </div>
-        <br/>
+        <br />
         <hr>
-        <br/>
+        <br />
         <span class="lead"> [Testando o que to fazendo ] </span>
-</div>
+    </div>
     <!-- Codificação-->
     <?php
     //arrumando erro 
@@ -35,37 +35,38 @@
     //preparando consulta sql
     $sql = "select titulo,autor,sobrenome,editora from livros order by titulo,sobrenome asc;";
     $result = $conn->query($sql);
-    $livros= $result->fetchAll(PDO::FETCH_ASSOC);
+    $livros = $result->fetchAll(PDO::FETCH_ASSOC);
     //exibindo
     ?>
     <!-- HTML -->
     <div class="container">
-    <div class = "row">
-        <table class="table table-striped">
-            <thead>
-            <tr>
-                <th> Titulo </th>
-                <th> Autor  </th>
-                <th> Sobrenome </th>
-                <th> Editora</th>
-            </tr>
-            </thead>
-            <tbody>
-                <?php
-                    foreach($livros as $livro ){
-                ?>
-                <tr>
-                            <td><?=$livro[titulo]?></td>
-                            <td><?=$livro[autor]?></td>
-                            <td><?=$livro[sobrenome]?></td>
-                            <td><?=$livro[editora]?></td>
-                </tr>
-                <?php
-                }
-                ?>
-            </tbody>
-        </table>
+        <div class="row">
+            <table class="higlight">
+                <thead>
+                    <tr>
+                        <th> Titulo </th>
+                        <th> Autor </th>
+                        <th> Sobrenome </th>
+                        <th> Editora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    foreach ($livros as $livro) {
+                        ?>
+                        <tr>
+                            <td><?= $livro[titulo] ?></td>
+                            <td><?= $livro[autor] ?></td>
+                            <td><?= $livro[sobrenome] ?></td>
+                            <td><?= $livro[editora] ?></td>
+                        </tr>
+                    <?php
+                    }
+                    ?>
+                </tbody>
+            </table>
         </div>
     </div>
 </body>
+
 </html>
