@@ -3,7 +3,7 @@ include_once './conexao.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
-
+<!-- Pagina da tabela de livros -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@ include_once './conexao.php';
     <!-- add materialize-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="materialize/css/custon.css">
-    <title>Index</title>
+    <title>Power Livros</title>
 </head>
 
 <body>
@@ -30,13 +30,11 @@ include_once './conexao.php';
     <?php
     //arrumando erro 
     error_reporting(0);
-    // codificação para acentos
     $conn->exec("set names utf8");
-    //preparando consulta sql
+    //consulta para mostrar os livros em ordem alfabetica 
     $sql = "select titulo,autor,sobrenome,editora from livros order by titulo,sobrenome asc;";
     $result = $conn->query($sql);
     $livros = $result->fetchAll(PDO::FETCH_ASSOC);
-    //exibindo
     ?>
     <!-- HTML -->
     <div class="container">
@@ -68,5 +66,4 @@ include_once './conexao.php';
         </div>
     </div>
 </body>
-
 </html>
