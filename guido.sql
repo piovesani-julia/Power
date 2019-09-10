@@ -32,7 +32,8 @@ values  ('A CUlpa é das Estrelas ','John','Green','foda -se',''),
         ('A Escolha ','Kiera' ,'Cass','','Seguinte'),
         ('A Herdeira','Kiera' ,'Cass','','Seguinte'),
         ('Marly & Eu ','Jonhon' ,'Grogan','Vc chora pra caralho lendo isso ','Ediouro'),
-		('Buracos Negros','Stephen' ,'Hawking','Ainda n li','Intrinca'), -- melhor editora 
+		('Buracos Negros','Stephen' ,'Hawking','Ainda n li','Intrinca'), -- melhor editora
+        --Falta as imagens daqui pra frente  
 		('Os Relógios ','Agatha' ,'Cristie ','Um caso de Hercule Poirot','GloboLivros'),
 		('Contos de Kolimá','Varlam' ,'Chalámov','nunca nem li','editora34'),
         ('Clube Da Luta','Chuck' ,'Palahniuk','','LeYa');
@@ -47,7 +48,6 @@ values ('Morte e Vida Severina','João' ,'Cabral Melo Neto','ponto de leitura','
         ('O cortiço','Aluísio' ,'Azevedo','Editora Moderna ',''),
         ('Memórias póstumas de Brás Cubas ','Machado' ,'de Assis','Editota Moderna','Foda -se'),
         ('Vidas Secas ','Gracilio' ,'Ramos ','Record','Caralho');
-select * from livros order by titulo, sobrenome asc; 
 insert into livros(titulo,autor,sobrenome,editora,descr)
 values ('A Droga do Amor','Pedro' ,'Bandeira ','Editora Moderna',''),
 	   ('Meu pé de Laranja Lima ','José' ,'de Vasconcelos','Melhoramentos',''),
@@ -66,3 +66,4 @@ values  ('Um Estudo em Vermelho','Artur' ,'Conon Doyle','','Zahar'),
         ('Histórias de Sherlock Holmes','Artur' ,'Conon Doyle','','Zahar');
         
 select * from livros order by titulo,sobrenome asc;
+drop database power;
