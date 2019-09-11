@@ -66,4 +66,5 @@ values  ('Um Estudo em Vermelho','Artur' ,'Conon Doyle','','Zahar'),
         ('Histórias de Sherlock Holmes','Artur' ,'Conon Doyle','','Zahar');
         
 select * from livros order by titulo,sobrenome asc;
-drop database power;
+--Valores cadastrados até 10/09
+--drop database power;
