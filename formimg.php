@@ -1,3 +1,7 @@
+<?php
+  session_start();
+  include_once'./conexao.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -13,15 +17,26 @@
     <title>Power Livros</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-                <div class="co">
-                        <H1>
-                            Upload de Imagens 
-                        </H1>
-                        <h2>Mais pra freste junto com os livros </h2>
-                </div>
-        </div>
-    </div>
+<h1>Cadastrar Imagem</h1>
+        <?php
+        if(isset($_SESSION['msg'])){
+            echo $_SESSION['msg'];
+            unset($_SESSION['msg']);
+        }
+        ?>
+        <form method="POST" action="proc_cad_img.php" enctype="multipart/form-data">
+            <label>Nome:</label>
+            <input type="text" name="nome" placeholder="Digitar o nome"><br><br>
+            
+            <label>Imagem</label>
+            <input type="file" name="imagem"><br><br>
+            
+            <input name="SendCadImg" type="submit" value="Cadastrar">
+        </form>
+        <br/>
+        <br/>
+        <hr>
+        <br/>
+        <a href="tabela.php"> @Tabela</a>
 </body>
 </html>
