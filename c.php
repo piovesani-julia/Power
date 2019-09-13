@@ -5,13 +5,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="materialize/css/custon.css" real="stylesheet" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="bootstrap/js/vendor/bootstrap.min.js" type="text/javascript"></script>
+        <link href="materialize/css/custon.css" real="stylesheet" type="text/css">
         <style>
         h1{
             font-family: Old English Text MT;
             color:#ffa000;
+        }
+        a{
+            color:#00796b;
         }
         </style>
     </head>
@@ -28,7 +31,7 @@
         <br/>
         </div>
         <div class="col-sm">
-            <h1>Promoçãoooooo!!!!</h1>
+            <h1>Power Livros!!</h1>
             </div>
             <div class="col-sm">
             <br/>
@@ -46,7 +49,7 @@
                         <img src="Fotos/promo.jpg" 
                              alt="Seleção" style="width:100%; higth:50%">
                         <div class="carousel-caption">
-                        <a href ="#"><h3>Promoção</h3>
+                        <a href ="cardes.php"><h3>Promoção</h3>
                             <p>A Seleção - Kiera Kass</p></a>
                             <!-- CRIAR UM LINK PRA ONDE VAI TER VARIOS CARDES-->
                         </div>
@@ -55,7 +58,7 @@
                         <img src="Fotos/p3.jpg" 
                              alt="Elite" style="width: 100%;">
                         <div class="carousel-caption">
-                        <a href ="#"><h3>Promoção</h3>
+                        <a href ="cardes.php"><h3>Promoção</h3>
                             <p>A Seleção - Kiera Kass</p></a>
                         </div>
                     </div>
