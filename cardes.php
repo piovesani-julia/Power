@@ -22,16 +22,19 @@
       <div class="col s12 m7">
       </div>
       <div class="col s12 m7">
-        <div class="card">
-          <div class="card-image " style="width:50%">
+      <div class="card horizontal">
+          <div class="card-image">
             <img src="Fotos/selecao.jpg">
-            <span class="card-title">SELECÃO</span>
           </div>
-          <div class="card-content">
-            <p> A Seleção - Kiera Cass </p>
-          </div>
-          <div class="card-action">
-            <p>R$ 24,90</p>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
           </div>
         </div>
       </div> <!-- fecha a div class col -->
@@ -44,14 +47,677 @@
           <div class="card-stacked">
             <div class="card-content">
               <p>A seleção - Kiera Cass</p>
-              <p>PROMOÇÃO</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
             </div>
             <div class="card-action">
               <p>R$ 25.90</p>
             </div>
           </div>
         </div>
-      </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col --<div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col --><div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Fotos/selecao.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>A seleção - Kiera Cass</p>
+              <br/><br/> <br/><br/><br/>
+              <a href="c.php">PROMOÇÃO</a>
+            </div>
+            <div class="card-action">
+              <p>R$ 25.90</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- fecha a dic col -->
+      
     </div>
   </div>
 </body>
