@@ -1,11 +1,15 @@
 <?php
-    $username = 'root';
-    $password = '';
-    try{
-        $conn = new PDO('mysql:host=localhost;dbname=guido',
-        $username,
-        $password);      
-        $conn ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    }catch(PDOException $e){
-    echo 'aconteceu o erro: '. $e->getMessage();        
-    }
+
+// constantes com as credenciais de acesso ao banco MySQL
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'guido');
+
+// habilita todas as exibições de erros
+ini_set('display_errors', true);
+error_reporting(E_ALL);
+date_default_timezone_set('America/Sao_Paulo');
+
+// inclui o arquivo de funçõees
+require_once 'functions.php';
