@@ -1,6 +1,5 @@
 create database guido;
 use guido;
-
 /*		Tabelas:
         Livros(Produtos);        
 */
@@ -102,6 +101,9 @@ values  ('Um Estudo em Vermelho','Artur' ,'Conon Doyle','Zahar',''),
 
         ('Histórias de Sherlock Holmes','Artur' ,'Conon Doyle','Zahar','');
         
--- select * from livros order by titulo,sobrenome asc;
--- Valores cadastrados até 10/09
--- drop database power;
+create table imagens(
+id int not null auto_increment,
+nome varchar(220) not null,
+imagem varchar(220) not null,
+primary key (id)
+);
