@@ -4,6 +4,7 @@ include_once './conexao.php';
 <!DOCTYPE html>
 <html lang="pt-br">
 <!-- Pagina da tabela de livros -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +25,6 @@ include_once './conexao.php';
         <br />
         <hr>
         <br />
-        <span class="lead"> [Testando o que to fazendo ] </span>
     </div>
     <!-- Codificação-->
     <?php
@@ -66,4 +66,5 @@ include_once './conexao.php';
         </div>
     </div>
 </body>
+
 </html>
