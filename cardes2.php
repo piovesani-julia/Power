@@ -13,5 +13,8 @@
 </head>
 <body>
     <!-- Ver se da pra fazer um for ichie pra criar cardes conforme os registros e utiliazar as img  -->
+    <?php
+        
+    ?>
 </body>
 </html>
