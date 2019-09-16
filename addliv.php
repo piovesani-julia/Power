@@ -1,11 +1,12 @@
 <?php
 require_once 'init.php';
 // pega os dados do formuário
-$name = isset($_POST['name']) ? $_POST['name'] : null;
-$email = isset($_POST['email']) ? $_POST['email'] : null;
-$gender = isset($_POST['gender']) ? $_POST['gender'] : null;
-$birthdate = isset($_POST['birthdate']) ? $_POST['birthdate'] : null;
- 
+$isbn = isset($_POST['isbn']) ? $_POST['isbn'] : null;
+$titulo = isset($_POST['titulo']) ? $_POST['titulo'] : null;
+$autor = isset($_POST['autor']) ? $_POST['autor'] : null;
+$sobrenome = isset($_POST['sobrenome']) ? $_POST['sobrenome'] : null;
+$editora = isset($_POST['']) ? $_POST['editora']:null;
+
 // validação (bem simples, só pra evitar dados vazios)
 if (empty($name) || empty($email) || empty($gender) || empty($birthdate))
 {
