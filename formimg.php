@@ -33,10 +33,20 @@
             
             <input name="SendCadImg" type="submit" value="Cadastrar">
         </form>
-        <br/>
-        <br/>
+        <br/><br/>
         <hr>
         <br/>
-        <a href="tabela.php"> @Tabela</a>
+       <br/>
+        <h1>Cadastrar Livros</h1>
+        <form action="addliv.php" method = "POST">
+            <label>Titulo: </label>
+                <input type="text" nome="titulo" placeholder="Digite o título"><br/>
+            <label>Autor:</label>
+                <input type="text" nome="nome" placeholder="Digite o nome do autor"><br/><br/>
+            <label>Sobrenome:</label>
+                <input type="text" nome="sobrenome" placeholder="Digite o sobrenome do autor"><br/><br/>
+            <label>Editora:</label>
+                <input type="text" nome="editora" placeholder="Digite a editora"><br/><br/>
+        </form>
 </body>
 </html>
