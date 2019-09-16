@@ -3,7 +3,7 @@ require_once 'init.php';
 // pega os dados do formuário
 $isbn = isset($_POST['isbn']) ? $_POST['isbn'] : null;
 $titulo = isset($_POST['titulo']) ? $_POST :null;
-$nome = isset($_POST['nome']) ? $_POST['email'] : null;
+$nome = isset($_POST['nome']) ? $_POST['author'] : null;
 $sobrenome = isset($_POST['sobrenome']) ? $_POST['gender'] : null;
 $editora = isset($_POST['editora']) ? $_POST['birthdate'] : null;
 $desc = isset($_POST['desc']) ? $_POST['desc'] : null;
