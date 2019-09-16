@@ -12,7 +12,7 @@ create table livros(
 isbn int not null auto_increment,
 titulo varchar(100) not null,
 autor varchar(30) not null,
-sobrenome varchar(75),
+sobrenome varchar(75) not null,
 descr varchar(400),
 editora varchar(35),
 primary key (isbn)
