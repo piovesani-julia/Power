@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-include_once './init.php';
+include_once './conexao.php';
 //Verificar se o usuário clicou no botão, clicou no botão acessa o IF e tenta cadastrar, caso contrario acessa o ELSE
 $SendCadImg = filter_input(INPUT_POST, 'SendCadImg', FILTER_SANITIZE_STRING);
 if ($SendCadImg) {
@@ -28,16 +28,16 @@ if ($SendCadImg) {
         
         if(move_uploaded_file($_FILES['imagem']['tmp_name'], $diretorio.$nome_imagem)){
             $_SESSION['msg'] = "<p style='color:green;'>Dados salvo com sucesso e upload da imagem realizado com sucesso</p>";
-            header("Location: formimg.php");
+            header("Location: form.php");
         }else{
             $_SESSION['msg'] = "<p><span style='color:green;'>Dados salvo com sucesso. </span><span style='color:red;'>Erro ao realizar o upload da imagem</span></p>";
-            header("Location: formimg.php");
+            header("Location: form.php");
         }        
     } else {
         $_SESSION['msg'] = "<p style='color:red;'>Erro ao salvar os dados</p>";
-        header("Location: formimg.php");
+        header("Location: form.php");
     }
 } else {
     $_SESSION['msg'] = "<p style='color:red;'>Erro ao salvar os dados</p>";
-    header("Location: index.php");
+    header("Location: form.php");
 }
