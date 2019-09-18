@@ -9,16 +9,25 @@ descr - babulhos q contam um pouco da histório do livro
 */
 
 create table livros(
-isbn int not null auto_increment,
+id int not null auto_increment,
+isbn int not null,
 titulo varchar(100) not null,
 autor varchar(30) not null,
 sobrenome varchar(75) not null,
-descr varchar(400),
 editora varchar(35),
-primary key (isbn)
+primary key (id)
 );
--- parte chata insert into 
+create table imagens(
+id int not null auto_increment,
+id_li int, -- chave estrageira da tabela livros;
+nome varchar(220) not null,
+imagem varchar(220) not null,
+primary key (id),
+foreign key (id_li) references livros (id)
+);
 
+-- parte chata insert into 
+/*
 insert into livros (titulo,autor,sobrenome,descr,editora)
 values  ('A Culpa é das Estrelas ','John','Green','foda -se',''),
 
@@ -101,9 +110,4 @@ values  ('Um Estudo em Vermelho','Artur' ,'Conon Doyle','Zahar',''),
 
         ('Histórias de Sherlock Holmes','Artur' ,'Conon Doyle','Zahar','');
         
-create table imagens(
-id int not null auto_increment,
-nome varchar(220) not null,
-imagem varchar(220) not null,
-primary key (id)
-);
+*/
