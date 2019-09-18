@@ -23,14 +23,14 @@ $desc = isset($_POST['desc']) ? $_POST['desc'] : null;
 
 // insere no banco
 $PDO = db_connect();
-$sql = "INSERT INTO livros(titulo, nome, sobrenome, editora, desc) VALUES(:isbn,:titulo, :nome, :sobrenome, :gender, :editora, :desc)";
+$sql = "INSERT INTO livros(isbn,titulo, nome, sobrenome, editora,) VALUES(:isbn, :titulo, :nome, :sobrenome, :editora)";
 $stmt = $PDO->prepare($sql);
 $stmt->bindParam(':isbn',$isbn);
 $stmt->bindParam(':titulo', $titulo);
 $stmt->bindParam(':nome', $nome);
 $stmt->bindParam(':sobrenome', $sobrenome);
 $stmt->bindParam(':editora', $editora);
-$stmt->bindParam(':desc', $desc);
+
 if ($stmt->execute())
 {
     header('Location: tabela.php');
