@@ -18,31 +18,55 @@ editora varchar(35),
 primary key (id)
 );
 create table imagens(
-id int not null auto_increment,
-id_li int, -- chave estrageira da tabela livros;
-isbn varchar(100),
-nome varchar(220) not null,
-imagem varchar(220) not null,
-primary key (id),
-foreign key (id_li) references livros (id)
+id tinyint not null auto_increment,
+ImgType varchar(25) not null default '',
+imgdata mediumblob not null,
+primary key (id)
 );
 
--- parte chata insert into 
-/*
-insert into livros (titulo,autor,sobrenome,descr,editora)
-values  ('A Culpa é das Estrelas ','John','Green','foda -se',''),
+select * from imagens;
+drop table imagens;
+CREATE TABLE output_images (
+  imageId int(11) NOT NULL,
+  imageType varchar(255) NOT NULL,
+  imageData longblob NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `output_images`
+--
+ALTER TABLE output_images
+  ADD PRIMARY KEY (imageId);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `output_images`
+--
+
+
+
+
+insert into livros (titulo,autor,sobrenome,editora,isbn)
+values  ('A Culpa é das Estrelas ','John','Green','',''),
 
 		('Harry Potter e o Prisioneiro de Azkarban',' J.K','Rowling','DFC','Rocco'),
 
-        ('Divirgente','Veronica' ,'Roth','n li','Rocco'),
+        ('Divirgente','Veronica' ,'Roth','Rocco'),
 
-        ('Insurgente','Veronica' ,'Roth','n li','Rocco'),
+        ('Insurgente','Veronica' ,'Roth','Rocco'),
 
-		('Convigente','Veronica' ,'Roth','n li','Rocco'),
+		('Convigente','Veronica' ,'Roth','Rocco'),
 
-		('A Seleção','Kiera' ,'Cass','','Seguinte'),
+		('A Seleção','Kiera' ,'Cass','Seguinte'),
 
-		('A Elite','Kiera' ,'Cass','','Seguinte'),
+		('A Elite','Kiera' ,'Cass','Seguinte'),
 
         ('A Escolha ','Kiera' ,'Cass','','Seguinte'),
 
@@ -60,7 +84,7 @@ values  ('A Culpa é das Estrelas ','John','Green','foda -se',''),
 
         ('Clube Da Luta','Chuck' ,'Palahniuk','','LeYa');
 
-insert into  livros(titulo,autor,sobrenome,editora,descr)
+insert into  livros(titulo,autor,sobrenome,editora,isbn)
 values ('Morte e Vida Severina','João' ,'Cabral Melo Neto','ponto de leitura',''),
 
 		('Dom Casmurro','Machado' ,'de Assis','L&PM',''),
@@ -92,7 +116,7 @@ values ('A Droga do Amor','Pedro' ,'Bandeira ','Editora Moderna',''),
 
        ('Extraordinário','R.J.','Palacio','Intriseca','Ñ julgue um menino pela cara');
 
-insert into livros(titulo,autor,sobrenome,editora,descr)
+insert into livros(titulo,autor,sobrenome,editora,isbn)
 values  ('Um Estudo em Vermelho','Artur' ,'Conon Doyle','Zahar',''),
 
 	    ('Os Sinal dos Quatro','Artur' ,'Conon Doyle','Zahar',''),
@@ -110,5 +134,3 @@ values  ('Um Estudo em Vermelho','Artur' ,'Conon Doyle','Zahar',''),
         ('Os Últimos Casos de Sherlock Holmes','Artur' ,'Conon Doyle','Zahar',''),
 
         ('Histórias de Sherlock Holmes','Artur' ,'Conon Doyle','Zahar','');
-        
-*/
