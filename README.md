@@ -12,8 +12,8 @@ Podia ser a biqueira online<br/>
 - sugestão de historias <br/>
 - pag para cronicas de leitores, podendo ou nao se identificar e livro com as melhores cronicas card para as pessoas com as melhores cronicas e que entraram no livro do mes<br/>
 ============================================================================<br/>
-* \*Carrosel com a promoção - ok;*<br/>
-* \*Tababela de livros - Terminar estilização - Por btn alterar, excluir, add registro;*<br/>
-* \*Colocar a outra conexão para a table img quardar img;*<br/>
+*Carrosel com a promoção - ok;*<br/>
+*Tababela de livros - Terminar estilização - Por btn alterar, excluir, add registro;*<br/>
+*Colocar a outra conexão para a table img quardar img;*<br/>
 *
 
