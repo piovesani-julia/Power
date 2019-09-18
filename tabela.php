@@ -32,7 +32,7 @@ include_once './init.php';
     error_reporting(0);
     $conn->exec("set names utf8");
     //consulta para mostrar os livros em ordem alfabetica 
-    $sql = "select titulo,autor,sobrenome,editora from livros order by titulo,sobrenome asc;";
+    $sql = "select titulo,autor,sobrenome,editora,isbn from livros order by titulo,sobrenome asc;";
     $result = $conn->query($sql);
     $livros = $result->fetchAll(PDO::FETCH_ASSOC);
     ?>
@@ -46,6 +46,7 @@ include_once './init.php';
                         <th> Autor </th>
                         <th> Sobrenome </th>
                         <th> Editora</th>
+                        <th>ISBN</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -57,6 +58,7 @@ include_once './init.php';
                             <td><?= $livro[autor] ?></td>
                             <td><?= $livro[sobrenome] ?></td>
                             <td><?= $livro[editora] ?></td>
+                            <td><?=$livro[isbn]?></td>
                         </tr>
                     <?php
                     }
