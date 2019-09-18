@@ -4,14 +4,16 @@ Podia ser a biqueira online<br/>
 <i>ideias para trabalho php <b>25-09</b></i>
 <br/>
 - site da nossa editora de EMPI power baldelivros <br/>
-- primeira pag do index terá um carrosel com as ofertas de livros - ok <br/>
+- primeira pag do index terá um carrosel com as ofertas de livros - ok - c.php obs(alter name) <br/>
 - tirar foto dos livros da biblioteca/pegar na internet/ tirar foto dos nossos livros<br/>
-- uma pag com todos os produtos: dividido e com fotos + buscador de produtos ++<br/>
+- uma pag com todos os produtos: dividido e com fotos + buscador de produtos - cardes.php<br/>
 - uma pag com o "sobre nós" com fotos e localização (caraí) <br/>
-- carrosel do bootstrap e materialize para "embelezar" o site<br/>
+- carrosel do bootstrap e materialize para "embelezar" o site - ok <br/>
 - sugestão de historias <br/>
 - pag para cronicas de leitores, podendo ou nao se identificar e livro com as melhores cronicas card para as pessoas com as melhores cronicas e que entraram no livro do mes<br/>
 ============================================================================<br/>
 *Carrosel com a promoção - ok*<br/>
-*Tababela de livros - Terminar estilização Por pra acrecentar e excluir registro*<br/>
+*Tababela de livros - Terminar estilização - Por btn alterar, excluir, add registro*<br/>
+*Colocar a outra conexão para a table img quardar img*<br/>
+*
 
