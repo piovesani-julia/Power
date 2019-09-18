@@ -25,13 +25,46 @@ if(is_uploaded_file($_FILES['userImage']['tmp_name'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="materialize/css/custon.css">
     <title>Power Livros</title>
+    <style>
+        label{
+            font-family: Old English Text MT;
+            color:#000000;
+            font-size: 50px;
+        }
+        hr{
+            border-top: 1px dashed #000000;
+            border-bottom: 1px solid #000000;
+            color: #fff;
+            background-color: #fff;
+            height: 4px;
+        }
+        </style>
 </HEAD>
 <BODY>
-<form name="frmImage" enctype="multipart/form-data" action="" method="post" class="frmImageUpload">
-<label>Upload Image File:</label><br/>
-<input name="userImage" type="file" class="inputFile" />
-<input type="submit" value="Submit" class="btnSubmit" />
-</form>
-</div>
+    <div class="container">
+        <div class="row">  
+            <div class="col s1"></div>
+            <div class="col s10">
+                <form name="frmImage" enctype="multipart/form-data" action="" method="post" class="frmImageUpload">
+                    <label>Upload Imagens </label><br/><hr>
+                        <input name="userImage" type="file" class="inputFile" />
+                            <div class="file-field input-field">
+                            <div class="btn">
+                                <span>File</span>
+                                <input type="file">
+                            </div>
+                            <div class="file-path-wrapper">
+                                <input class="file-path validate" type="text">
+                            </div>
+                            </div>
+                        <br/><br/>
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                </form>
+            </div>
+            <div class="col s1"></div>
+        </div>
+    </div>
 </BODY>
 </HTML>
