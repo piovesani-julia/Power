@@ -23,7 +23,7 @@
                 <div class="col s10">
                 <h1>Cadastrar Livros</h1>
         <form action="addliv.php" method = "POST">
-        <label>Sobrenome:</label>
+        <label>ISBN:</label>
                 <input type="text" nome="isbn" placeholder="Digite o ISBN do livro"><br/><br/>
             <label>Titulo: </label>
                 <input type="text" nome="titulo" placeholder="Digite o título"><br/>
