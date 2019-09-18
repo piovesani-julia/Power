@@ -10,7 +10,7 @@ descr - babulhos q contam um pouco da histório do livro
 
 create table livros(
 id int not null auto_increment,
-isbn int not null,
+isbn varchar(100) not null,
 titulo varchar(100) not null,
 autor varchar(30) not null,
 sobrenome varchar(75) not null,
@@ -20,6 +20,7 @@ primary key (id)
 create table imagens(
 id int not null auto_increment,
 id_li int, -- chave estrageira da tabela livros;
+isbn varchar(100),
 nome varchar(220) not null,
 imagem varchar(220) not null,
 primary key (id),
