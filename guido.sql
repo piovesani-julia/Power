@@ -17,12 +17,6 @@ sobrenome varchar(75) not null,
 editora varchar(35),
 primary key (id)
 );
-create table imagens(
-id tinyint not null auto_increment,
-ImgType varchar(25) not null default '',
-imgdata mediumblob not null,
-primary key (id)
-);
 
 select * from imagens;
 drop table imagens;
@@ -31,27 +25,12 @@ CREATE TABLE output_images (
   imageType varchar(255) NOT NULL,
   imageData longblob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Indexes for dumped tables
---
-
---
 -- Indexes for table `output_images`
---
 ALTER TABLE output_images
   ADD PRIMARY KEY (imageId);
 
---
 -- AUTO_INCREMENT for dumped tables
---
-
---
 -- AUTO_INCREMENT for table `output_images`
---
-
-
-
 
 insert into livros (titulo,autor,sobrenome,editora,isbn)
 values  ('A Culpa é das Estrelas ','John','Green','',''),
