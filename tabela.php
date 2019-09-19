@@ -1,5 +1,5 @@
 <?php
-include_once './init.php';
+include_once './conexao.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -19,12 +19,30 @@ include_once './init.php';
 
 <body>
     <div class="container">
-        <div class="card-panel color blue text-cyan  text-lighten-5 ">
-            <h2> Tabela de livros </h2>
+        <div class="row">
+            <div class="col s1"></div>
+            <div class="col s10">
+                <div class="card-panel color blue text-cyan  text-lighten-5 ">
+                    <h2> Tabela de livros </h2>
+                </div>
+            </div>
+            <div class="col s1"></div>
         </div>
-        <br />
-        <hr>
-        <br />
+        <br /> <hr> <br />
+        <div class="container">
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s5">
+                <a href="formlivros.php">@Add registro</a><br/>
+                    <a href="cardes.php" >@Vitrine</a><br/>
+                </div>
+                <div class="col s5">
+                    <a href="addimg.php" >@Add Imagens</a>
+                </div>
+                <div class="col s2"></div>
+            </div>
+        </div>
+     <hr> <br />
     </div>
     <!-- Codificação-->
     <?php
@@ -39,6 +57,8 @@ include_once './init.php';
     <!-- HTML -->
     <div class="container">
         <div class="row">
+            <div class="col s2"></div>
+            <div class="col s8">
             <table class="higlight">
                 <thead>
                     <tr>
@@ -65,6 +85,9 @@ include_once './init.php';
                     ?>
                 </tbody>
             </table>
+            </div>
+            <div class="col s2"></div>
+        </div>
         </div>
     </div>
 </body>
