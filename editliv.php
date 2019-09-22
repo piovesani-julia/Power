@@ -9,15 +9,15 @@ if (empty($id)) {
 }
 // busca os dados do usuário a ser editado
 $PDO = db_connect();
-$sql = "SELECT name, email, gender, birthdate FROM users WHERE id = :id";
+$sql = "SELECT isbn,titulo, nome, sobrenome, editora FROM livros WHERE id = :id";
 $stmt = $PDO->prepare($sql);
 $stmt->bindParam(':id', $id, PDO::PARAM_INT);
 $stmt->execute();
 $user = $stmt->fetch(PDO::FETCH_ASSOC);
 // se o método fetch() não retornar um array, significa que o ID não corresponde 
-// a um usuário válido
+// a um livro válido
 if (!is_array($user)) {
-    echo "Nenhum usuário encontrado";
+    echo "Nenhum Livro encontrado";
     exit;
 }
 ?>
@@ -37,7 +37,7 @@ if (!is_array($user)) {
     <body>
         <h1>Cadastro de Livros </h1>
         <h2>Edição de livros </h2>
-        <form action="addliv.php" method = "POST">
+        <form action="editliv.php" method = "POST">
         <label>ISBN:</label>
                 <input type="text" nome="isbn" placeholder="Digite o ISBN do livro"><br/><br/>
             <label>Titulo: </label>
