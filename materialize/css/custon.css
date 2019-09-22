@@ -1,11 +1,12 @@
  /* Letra dos cds de Rock*/
-h1{font-family: Old English Text MT;}
-h2{font-family: Old English Text MT;
+h1{font-family: Candara ;}
+h2{font-family: Candara ;
    text-align: center;}
-h3{font-family: Old English Text MT;}
-h4{font-family: Old English Text MT;}
-h5{font-family: Old English Text MT;}
-h6{font-family: Old English Text MT;}
+h3{font-family: Candara ;}
+h4{font-family: Candara ;}
+h5{font-family: Candara ;}
+h6{font-family: Candara ;
+    color: #006064; }
 
 .nav-scroller {
     position: relative;
@@ -26,5 +27,7 @@ h6{font-family: Old English Text MT;}
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
-  
-  
+
+th{
+  color: #4527a0;
+}

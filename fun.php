@@ -4,6 +4,8 @@
  * Conecta com o MySQL usando PDO
  */
 function db_connect() {
-    $PDO = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8', DB_USER, DB_PASS);
+    $username = 'root';
+    $password = '';
+    $PDO = new PDO( 'mysql:host=localhost;dbname=guido',  $username,$password);      
     return $PDO;
 }
