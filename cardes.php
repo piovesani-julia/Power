@@ -41,11 +41,11 @@
        <div class="col s5">    
           <div class="card horizontal">
             <div class="card-image">
-              <img src="Fotos/selecao.jpg">
+              <img src="Fotos/elite.jpg">
             </div>
             <div class="card-stacked">
               <div class="card-content">
-                <p>A seleção - Kiera Cass</p>
+                <p>A Elite - Kiera Cass</p>
                 <br/><br/> <br/><br/><br/>
                 <a href="c.php">PROMOÇÃO</a>
               </div>
