@@ -10,3 +10,5 @@
     }catch(PDOException $e){
     echo 'aconteceu o erro: '. $e->getMessage();        
     }
+
+    require_once 'fun.php'
