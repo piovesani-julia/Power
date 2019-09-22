@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<!--- uma pag com todos os produtos: dividido e com fotos + buscador de produtos -->
+<!--- uma pag com todos os produtos, fotos + buscador de produtos -->
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +12,6 @@
   <link rel="stylesheet" href="materialize/css/custon.css">
   <title>Power Livros</title>
 </head>
-
 <body>
   <!-- PRESCISA -SE MENU-->
   <div class="container">
@@ -40,10 +38,13 @@
             
         </div>
      <hr> <br />
+
+
+
+
   <div class="container"> 
       <div class="row"> 
         <div class="col s1 ">
-
         </div>
         <div class="col s5">  
           <div class="card horizontal">
@@ -80,12 +81,100 @@
           </div>
        </div> <!-- fecha col s5 -->
         <div class="col s1">
-
         </div>
       </div ><!-- Fecha a row -->
+
+
+
       <div class="row"> 
         <div class="col s1 ">
+        </div>
+        <div class="col s5">    
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="Fotos/alasca.jpg">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>Quem é você Alasca - Jonh Green</p>
+                <br/><br/> <br/><br/><br/>
+                <a href="#"></a>
+              </div>
+              <div class="card-action">
+                <p>R$ 35.00</p>
+              </div>
+            </div>
+          </div>
+       </div> <!-- fecha col s5 -->
+       <div class="col s5">    
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="Fotos/relogios.jpg">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>Os Relógios - Agatha Cristie</p>
+                <br/><br/> <br/><br/><br/>
+                <a href="#"></a>
+              </div>
+              <div class="card-action">
+                <p>R$ 35.00</p>
+              </div>
+            </div>
+          </div>
+       </div> <!-- fecha col s5 -->
+        <div class="col s1">
+        </div>
+      </div ><!-- Fecha a Row -->
+      
+<!-- Falta arrumar ->> -->
 
+
+      <div class="row"> 
+        <div class="col s1 ">
+        </div>
+        <div class="col s5">    
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="Fotos/alasca.jpg">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>Quem é você Alasca - Jonh Green</p>
+                <br/><br/> <br/><br/><br/>
+                <a href="#"></a>
+              </div>
+              <div class="card-action">
+                <p>R$ 35.00</p>
+              </div>
+            </div>
+          </div>
+       </div> <!-- fecha col s5 -->
+       <div class="col s5">    
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="Fotos/relogios.jpg">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>Os Relógios - Agatha Cristie</p>
+                <br/><br/> <br/><br/><br/>
+                <a href="#"></a>
+              </div>
+              <div class="card-action">
+                <p>R$ 35.00</p>
+              </div>
+            </div>
+          </div>
+       </div> <!-- fecha col s5 -->
+        <div class="col s1">
+        </div>
+      </div ><!-- Fecha a Row -->
+
+
+
+      <div class="row"> 
+        <div class="col s1 ">
         </div>
         <div class="col s5">    
           <div class="card horizontal">
@@ -126,6 +215,5 @@
         </div>
       </div ><!-- Fecha a Row -->
   </div>
-  
 </body>
 </html>
