@@ -21,13 +21,16 @@ CREATE TABLE output_images (
 ALTER TABLE output_images
   ADD PRIMARY KEY (imageId);
 
-insert into livros(isbn,titulo,autor,sobrenome,editora)
-Values('978852096','Os Filhos do Imperador','Claire','Messud','Nova Frontera'),
-			('','','','',''),
-			('','','','',''),
-            ('','','','',''),
-            ('','','','','');
+insert into livros(isbn,titulo,autor,sobrenome,editora,preco)
+Values('978852096','Os Filhos do Imperador','Claire','Messud','Nova Frontera','35,00');
          
+insert into livros(isbn,titulo,autor,sobrenome,editora)
+Values ('','','','',''),
+			('','','','',''),
+			('','','','',''),
+			('','','','',''),
+			('','','','','');
+            
 insert into livros(isbn,titulo,autor,sobrenome,editora)
 Values ('','','','',''),
 			('','','','',''),
