@@ -1,5 +1,5 @@
 <?php
-include_once './conex.php';
+include_once './init.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -13,53 +13,25 @@ include_once './conex.php';
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <link rel="stylesheet" href="materialize/css/custon.css">
     <title>Home Deep Web na Web</title>
+    <style>
+         h2{
+            color:#b71c1c;
+            font-family: Chiller;
+         }
+         body{
+            background-color:#424242;
+         }
+    </style>
+    <title>Deep Wep na Wed - Home</title>
+
 </head>
 
 <div class="container">
-        <div class="card-panel color red text-cyan  text-lighten-5 ">
-            <h2> Tabela de Produtos </h2>
+        <div class="card-panel color black text-cyan  text-lighten-5 ">
+            <h2> </h2>
         </div>
         <br />
         <hr>
         <br />
     </div>
-    <!-- Codificação-->
-    <?php
-    //arrumando erro 
-    error_reporting(0);
-    $conn->exec("set names utf8");
-    //consulta para mostrar os livros em ordem alfabetica 
-    $sql = "select nome,lote,produtor,traficante order by nome,lote asc;";
-    $result = $conn->query($sql);
-    $drogas = $result->fetchAll(PDO::FETCH_ASSOC);
-    ?>
-    <!-- HTML -->
-    <div class="container">
-        <div class="row">
-            <table class="higlight">
-                <thead>
-                    <tr>
-                        <th> Nome </th>
-                        <th> Lote </th>
-                        <th> Produtor </th>
-                        <th> Traficante</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <?php
-                    foreach ($drogas as $droga) {
-                        ?>
-                        <tr>
-                            <td><?= $droga[nome] ?></td>
-                            <td><?= $droga[lote] ?></td>
-                            <td><?= $droga[produtor] ?></td>
-                            <td><?= $droga[traficante] ?></td>
-                        </tr>
-                    <?php
-                    }
-                    ?>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</body>
+  
