@@ -1,10 +1,10 @@
 <?php
-require_once 'conexao/conexao.php';
+require_once 'conexao.php';
 
 // pega os dados do formuário
 $isbn = isset($_POST['isbn'])? $_POST['isbn'] : null;
 $titulo = isset($_POST['titulo']) ? $_POST['titulo'] : null;
-$name = isset($_POST['autor']) ? $_POST['autor'] : null;
+$autor = isset($_POST['autor']) ? $_POST['autor'] : null;
 $sobrenome = isset($_POST['sobrenome']) ? $_POST['sobrenome'] : null;
 $editora = isset($_POST['editora']) ? $_POST['editora'] : null;
 $preco = isset($_POST['preco']) ? $_POST['preco'] : null;
@@ -15,7 +15,7 @@ $sql = "INSERT INTO livros(isbn, titulo, autor, sobrenome, editora, preco) VALUE
 $stmt = $PDO->prepare($sql);
 $stmt->bindParam(':isbn',$isbn);
 $stmt->bindParam(':titulo',$titulo);
-$stmt->bindParam(':name', $name);
+$stmt->bindParam(':autor', $autor);
 $stmt->bindParam(':sobrenome', $sobrenome);
 $stmt->bindParam(':editora', $editora);
 $stmt->bindParam(':preco', $preco);
