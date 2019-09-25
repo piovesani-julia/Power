@@ -1,5 +1,5 @@
 <?php
-require 'conexao/conexao.php';
+require './conexao.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -14,6 +14,18 @@ require 'conexao/conexao.php';
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="materialize/css/custon.css">
     <title>Power Livros</title>
+    <style>
+        h1{
+            color:#1e90ff;
+            text-align: center;
+        }
+        label{
+            color: #1a237e;
+        }
+        footer{
+            color:black;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,7 +36,9 @@ require 'conexao/conexao.php';
             <div class="col s1 ">
             </div>
             <div class="col s10">
-            <h1>Cadastrar Livros</h1>
+                <div class="card-panel black">
+                    <h1>Cadastrar Livros</h1>
+                </div>
             <form action="add.php" method = "POST">
                 <label>ISBN:</label>
                     <input type="text" nome="isbn" placeholder="Digite o ISBN do livro"><br/><br/>
@@ -44,5 +58,30 @@ require 'conexao/conexao.php';
             <div class="col s1"></div>
         </div>
     </div>
+    <footer class="page-footer black">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="blue-text">Livraria Power </h5>
+                <p class="blue-text text-darken-4"><b>Livriria criada par fins educativos</b></p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text"></h5>
+                <ul>
+                  <li>Ruahma</li>
+                  <li>Julia</li>
+                  <li>Lúcia</li>
+                  <li>Isadora</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2019 Trabalho Escolar 
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
 </body>
 </html>
