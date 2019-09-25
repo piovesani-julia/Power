@@ -1,5 +1,5 @@
 <?php
-include_once './init.php';
+include_once './conex.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -29,7 +29,7 @@ include_once './init.php';
     error_reporting(0);
     $conn->exec("set names utf8");
     //consulta para mostrar os livros em ordem alfabetica 
-    $sql = "select nome,lote,produtor,traficante, from drogas order by nome,lote asc;";
+    $sql = "select nome,lote,produtor,traficante order by nome,lote asc;";
     $result = $conn->query($sql);
     $drogas = $result->fetchAll(PDO::FETCH_ASSOC);
     ?>
