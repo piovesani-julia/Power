@@ -8,7 +8,14 @@ h4{font-family: Castellar ;
    text-align: center;}
 h5{font-family: Candara ;}
 h6{font-family: Candara ;
-    color: #006064; }
+    color: #006064; 
+  }
+
+p{
+  font-family: Castellar;
+  
+}
+
 
 .nav-scroller {
     position: relative;
