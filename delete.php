@@ -1,5 +1,5 @@
 <?php
-require_once 'conexao/conexao.php.php';
+require_once 'conexao.php';
 // pega o ID da URL
 $id = isset($_GET['id']) ? $_GET['id'] : null;
 // valida o ID
@@ -10,7 +10,7 @@ if (empty($id))
 }
 // remove do banco
 $PDO = db_connect();
-$sql = "DELETE FROM users WHERE id = :id";
+$sql = "DELETE FROM livros  WHERE id = :id";
 $stmt = $PDO->prepare($sql);
 $stmt->bindParam(':id', $id, PDO::PARAM_INT);
 if ($stmt->execute())
