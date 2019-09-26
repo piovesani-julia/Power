@@ -20,7 +20,7 @@ $stmt->bindParam(':sobrenome', $sobrenome);
 $stmt->bindParam(':editora', $editora);
 $stmt->bindParam(':preco', $preco);
 
-if ($stmt->execute())
+if ($stmt->execute()) // Aqui tá o erro só ñ sei pq 
 {
     header('Location: tabela.php');
 }
