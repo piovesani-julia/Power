@@ -1,4 +1,3 @@
-  
 <?php
     $username = 'root';
     $password = '';
@@ -6,8 +5,14 @@
         $conn = new PDO('mysql:host=localhost;dbname=guido',
         $username,
         $password);      
-        $conn -> setAttribute(PDO:: ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $conn ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }catch(PDOException $e){
-        echo "Deu Ruim!!" . $e ->getMessage();
+    echo 'aconteceu o erro: '. $e->getMessage();        
     }
-    require_once 'fun.php';
+
+    function db_connect(){
+        $username = 'root';
+        $password = '';
+        $PDO = new PDO( 'mysql:host=localhost;dbname=guido',  $username,$password);      
+        return $PDO;
+        }
