@@ -1,5 +1,5 @@
 <?php
-require_once 'conexao.php';
+include_once 'conexao.php';
 
 // pega os dados do formuário
 $isbn = isset($_POST['isbn'])? $_POST['isbn'] : null;
@@ -22,7 +22,7 @@ $stmt->bindParam(':preco', $preco);
 
 if ($stmt->execute())
 {
-    header('Location: index.php');
+    header('Location: tabela.php');
 }
 else
 {

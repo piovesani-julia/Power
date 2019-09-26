@@ -15,7 +15,7 @@ $stmt = $PDO->prepare($sql);
 $stmt->bindParam(':id', $id, PDO::PARAM_INT);
 if ($stmt->execute())
 {
-    header('Location: index.php');
+    header('Location: tabela.php');
 }
 else
 {
