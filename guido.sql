@@ -46,3 +46,4 @@ Values ('','','','',''),
 			('','','','','');
             
 select * from livros;
+drop database guido;
