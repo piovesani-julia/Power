@@ -13,5 +13,6 @@ Podia ser a biqueira online<br/>
 - pag para cronicas de leitores, podendo ou nao se identificar e livro com as melhores cronicas card para as pessoas com as melhores cronicas e que entraram no livro do mes<br/>
 ============================================================================<br/>
 *Carrosel com a promoção - ok*<br/>
-*Tababela de livros - Terminar estilização Por pra acrecentar e excluir registro*<br/>
+*Tabela remover registro - ok*
+*Tababela de livros - Terminar estilização*<br/>
 
