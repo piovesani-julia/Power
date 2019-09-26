@@ -1,5 +1,5 @@
 <?php
-require './conexao.php';
+include_once 'conexao.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -39,6 +39,7 @@ require './conexao.php';
                 <div class="card-panel black">
                     <h1>Cadastrar Livros</h1>
                 </div>
+                <br/><hr><br/>
             <form action="add.php" method = "POST">
                 <label>ISBN:</label>
                     <input type="text" nome="isbn" placeholder="Digite o ISBN do livro"><br/><br/>
@@ -52,7 +53,7 @@ require './conexao.php';
                     <input type="text" nome="editora" placeholder="Digite a editora">
                     <label>Preço:</label>
                     <input type="text" nome="preco" placeholder="Digite o Preço"><br/><br/>
-                    <input name="SendCadImg" type="submit" value="Cadastrar">
+                    <input class="waves-effect waves-light btn-small" name="SendCadImg" type="submit" value="Cadastrar">
             </form>
             </div>
             <div class="col s1"></div>
@@ -79,7 +80,7 @@ require './conexao.php';
           <div class="footer-copyright">
             <div class="container">
             © 2019 Trabalho Escolar 
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <a class="grey-text text-lighten-4 right" href="b/indexb.php">More Links</a>
             </div>
           </div>
         </footer>
