@@ -1,5 +1,8 @@
  /* Letra dos cds de Rock*/
-h1{font-family: Castellar ;}
+body{
+  background-image: url(./Fotos/logo.png);
+}
+ h1{font-family: Castellar ;}
 h2{font-family: Castellar ;
    text-align: center;}
 h3{font-family: Castellar ;
