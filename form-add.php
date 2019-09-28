@@ -56,7 +56,7 @@ include_once 'conexao.php';
                     <input type="text" nome="editora" placeholder="Digite a editora">
                     <label>Preço:</label>
                     <input type="text" nome="preco" placeholder="Digite o Preço"><br /><br />
-                    <input class="waves-effect waves-light btn-small" name="SendCadImg" type="submit" value="Cadastrar">
+                    <a class="waves-effect waves-light btn-small"><input  name="SendCadImg" type="submit" value="Cadastrar"></a>
                 </form>
             </div>
             <div class="col s1"></div>
