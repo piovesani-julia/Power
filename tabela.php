@@ -70,8 +70,7 @@ include_once 'conexao.php';
                             <th>SOBRENOME (AUTOR)</th>
                             <th>EDITORA</th>
                             <th>REGISTRO DE CADASTRO</th>
-                            <th>PREÇO </th>
-                            <th>AÇÕES</th>
+                            <th colspan="2">PREÇO </th>
                         </tr>
                     </thead>
                     <tbody>
