@@ -20,6 +20,9 @@
         </div>
     </div>
 
+
+
+<!-- Rodapé -->
 <footer class="page-footer black">
           <div class="container">
             <div class="row">
@@ -28,20 +31,21 @@
                 <p class="blue-text text-darken-4"><b>Livriria criada par fins educativos</b></p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text"></h5>
+                <a href="nos.php"><h5 class="white-text"> Nós</h5></a>
                 <ul>
                   <li>Ruahma</li>
                   <li>Julia</li>
                   <li>Lúcia</li>
                   <li>Isadora</li>
+                  <li>Luigi</li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2019 Trabalho Escolar 
-            <a class="grey-text text-lighten-4 right" href="b/indexb.php">More Links</a>
+                © 2019 Trabalho Escolar 
+            <a class="grey-text text-lighten-4 right" href="b/indexb.php">More Link</a>
             </div>
           </div>
         </footer>

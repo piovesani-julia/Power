@@ -1,7 +1,5 @@
  /* Letra dos cds de Rock*/
-body{
-  background-image: url(./Fotos/logo.png);
-}
+
  h1{font-family: Castellar ;}
 h2{font-family: Castellar ;
    text-align: center;}
@@ -40,10 +38,15 @@ p{
     -webkit-overflow-scrolling: touch;
   }
 
-th{
-  color: #4527a0;
-}
+
 a {
   text-align: center;
-  color: #004d40;
+  color: #ff6f00;
+}
+td{
+color:#ffffff;
+
+}
+th{
+  color: #4527a0;
 }
