@@ -135,30 +135,6 @@
     <!--Fecha row-->
     
     <br><br>
-    <div class="row">
-      <div class="col-s2">
-
-      </div>
-      <div class="col-s10">
-      <h3>Lancamentos</h3><br>
-        <div class="card">
-          <div class="card-body">
-            Isto é um texto dentro de um card.
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            Isto é um texto dentro de um card.
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            Isto é um texto dentro de um card.
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--Fecha row-->
   </div>
   <!--Fecha container-->
 
