@@ -17,7 +17,7 @@ Podia ser a biqueira online<br/>
 *form-edit - Materialize*<br/>
 ===============================================================================<br/>
 <UL>
-<LI> NÃO CONSEGUI FAZER ELE INCERIR REGISTRO, ESTÁ INCERINDO NULO, Ñ ALTERA REGISTRO CORRETAMENTE</LI><BR>
+<LI> NÃO CONSEGUI FAZER ELE INCERIR REGISTRO, ESTÁ INCERINDO NULO, Ñ ALTERA REGISTRO CORRETAMENTE</LI>
 <LI> O INDEX Ñ ESTÁ TERMINADO</LI>
 <LI> A PAGINA LANCAMENTOS Ñ ESTÁ TERMINDADA</LI>
 <LI> ABOUT US Ñ TERMINADA</LI>
