@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
+<!-- Home -->
 <head>
    <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +28,8 @@
             <a class="nav-link" href="nos.php">Sobre nós</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="tabela.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <!-- Menu com subniveis-->
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Livros
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -36,35 +37,88 @@
               <a class="dropdown-item" href="#">Mais procurados </a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item disabled" href="#">Para Vestibular </a>
+              <a class="dropdown-item disabled" href="tabela.php">Todos os Livros</a>
             </div>
           </li>
       </div>
   </nav>
     <div class="container ">
         <div class="row">
-            <div class="col-s2">
+            <div class="col-s1">
 
             </div>
-            <div class="col-s10">
+            <div class="col-s5">
                 <h3>Lancamentos</h3><br>
-                <div class="card">
-                    <div class="card-body">
-                        Isto é um texto dentro de um card.
+                <div class="card  border-info">
+                    <div class="card-body  text-info">
+                        Minha Vida Fora de Série 5ºtemporada - 2019
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-body">
-                        Isto é um texto dentro de um card.
+                <br>
+                <div class="card  border-warning">
+                    <div class="card-body  text-warning">
+                        Fazendo Meu Filme Lado B - 2019
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-body">
-                        Isto é um texto dentro de um card.
+                <br>
+                <div class="card  border-dark">
+                    <div class="card-body  text-dark">
+                    Sob o Solo - Novembro 2019
                     </div>
                 </div>
             </div>
+            <!-- ... -->
+            <div class="col"></div>
+            <div class="col-s5">
+                <br><br><br>
+                <img src="Fotos/fmflb.jpg" alt="200px" width="200px" class="img-thumbnail">
+            </div><!-- utut -->
         </div>
         <!--Fecha row-->
+        <div class="row">
+        <div class="col-s5">
+                <br>
+                <div class="card  border-info">
+                    <div class="card-body  text-info">
+                        Minha Vida Fora de Série 5ºtemporada - 2019
+                    </div>
+                </div>
+                <br>
+                <div class="card  border-warning">
+                    <div class="card-body  text-warning">
+                        Fazendo Meu Filme Lado B - 2019
+                    </div>
+                </div>
+                <br>
+                <div class="card  border-dark">
+                    <div class="card-body  text-dark">
+                    Sob o Solo - Novembro 2019
+                    </div>
+                </div>
+            </div>
+            <!-- ...-->
+            <div class="col"></div>
+            <div class="col-s5">
+                <br>
+                <div class="card  border-info">
+                    <div class="card-body  text-info">
+                        Minha Vida Fora de Série 5ºtemporada - 2019
+                    </div>
+                </div>
+                <br>
+                <div class="card  border-warning">
+                    <div class="card-body  text-warning">
+                        Fazendo Meu Filme Lado B - 2019
+                    </div>
+                </div>
+                <br>
+                <div class="card  border-dark">
+                    <div class="card-body  text-dark">
+                    Sob o Solo - Novembro 2019
+                    </div>
+                </div>
+            </div>
+        </div><!--Fecha row-->
     </div>
 </body>
 
