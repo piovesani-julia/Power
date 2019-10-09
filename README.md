@@ -15,3 +15,11 @@ Podia ser a biqueira online<br/>
 *Tabela - Materialize*<br/>
 *form-add - Materialize*<br/>
 *form-edit - Materialize*<br/>
+===============================================================================<br/>
+<UL>
+<LI> NÃO CONSEGUI FAZER ELE INCERIR REGISTRO, ESTÁ INCERINDO NULO, Ñ ALTERA REGISTRO CORRETAMENTE</LI><BR>
+<LI> O INDEX Ñ ESTÁ TERMINADO</LI>
+<LI> A PAGINA LANCAMENTOS Ñ ESTÁ TERMINDADA</LI>
+<LI> ABOUT US Ñ TERMINADA</LI>
+</UL>
+<I>rESUMINDO NADA ESTÁ PRONTP<I>
