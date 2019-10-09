@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- add materialize-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="materialize/css/custon.css">
-    <title>Power Livros</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="../custon.css">
+  <title>Power Livros</title>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
 
       <a class="navbar-brand" href="#">
@@ -44,28 +43,42 @@
           </li>
       </div>
   </nav>
-        <div class="row">
-            <div class="col s1"></div>
-            <div class="col s10">
-            <h3> Nossa História</h3><br>
-            <p> Nossa livraria teve um começo bem inusitado, a proposta foi fazer um site com qualquer tema tendo alguns requisitos obrigatórios.
-            Ficamos um tempo pensando e logo nos veio a ideia de usar o tema de outro trabalho, mas mesmo assim tivemos que adaptar um pouco, afinal, nesse outro trabalho
-             a ideia era fazer uma editora de livros e lá trbalharíamos com a formação de uma empresa; aqui mudamos um pouco, virou um site onde se vende livros, ao inves de escrevê-los e 
-            editá-los; nesse site nós também recebemos outros livros e revedemos.  </p>
-            <p> gostaríamos do seu apoio, se tiver interesse, coloque um produto seu a venda, temos certeza que do mesmo jeito que ele mudou a 
-            sua vida, irá mudar a de várias outras também! Compartilhe-o e mude vidas!
-            </p>
-            </div>
-            <div class="col s1"></div>
-        </div><!-- end row-->
-        <div class="row">
-        <!-- a ideia é colocar fotos nossas e na frente ou embaixo colocar algumas informações sobre cada um, ex
+   <!-- "Inicio da pág" -->
+   <div class="row">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <br><br>
+        <h3>Nossa História</h3><br>
+        <p> Nossa livraria teve um começo bem inusitado, a proposta foi fazer um site com qualquer tema tendo alguns requisitos obrigatórios.
+          Ficamos um tempo pensando e logo nos veio a ideia de usar o tema de outro trabalho, mas mesmo assim tivemos que adaptar um pouco, afinal, nesse outro trabalho
+          a ideia era fazer uma editora de livros e lá trbalharíamos com a formação de uma empresa; aqui mudamos um pouco, virou um site onde se vende livros, ao inves de escrevê-los e
+          editá-los; nesse site nós também recebemos outros livros e revedemos. </p>
+        <p> Gostaríamos do seu apoio, se tiver interesse, coloque um produto seu a venda, temos certeza que do mesmo jeito que ele mudou a
+          sua vida, irá mudar a de várias outras também! Compartilhe-o e mude vidas!
+        </p>
+      </div>
+      <div class="col-1"></div>
+    </div><!-- end row-->
+    <div class="row">
+      <!-- a ideia é colocar fotos nossas e na frente ou embaixo colocar algumas informações sobre cada um, ex
         nome, idade, escola, curso, cidade que mora, onde nasceu bla bla bla atraves de uma lista, ou seja, <ul><li> idade</li></ul> -->
+        <div class="col">
+
         </div>
+        <div class="col">
+
+        </div>
+        
     </div>
+    <div class="row">
+      <div class="col">
+      <h3>Fale Conosco</h3>
+      </div>
+    </div>
+  </div><!-- Fecha o container-->
+  
 
-
-
-<!-- Rodapé -->
+ 
 </body>
+
 </html>
