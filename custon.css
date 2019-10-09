@@ -1,0 +1,46 @@
+ /* Letra dos cds de Rock*/
+
+ h1{font-family: Castellar ;}
+h2{font-family: Castellar ;
+   text-align: center;}
+h3{font-family: Castellar ;
+   text-align: center;}
+h4{font-family: Castellar ;
+   text-align: center;}
+h5{font-family: Candara ;}
+h6{font-family: Candara ;
+    color: #006064; 
+  }
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+  
+  .nav-scroller .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+
+a {
+  text-align: center;
+  color: #ff6f00;
+}
+td{
+color:#ffffff;
+
+}
+th{
+  color: #4527a0;
+}
