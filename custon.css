@@ -14,10 +14,9 @@ h6{font-family: Candara ;
 
 p{
   font-family: Castellar;
+  font-size: x-small; 
   
 }
-
-
 .nav-scroller {
     position: relative;
     z-index: 2;
