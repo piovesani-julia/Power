@@ -1,3 +1,7 @@
+<?php 
+  include_once './conexao.php';
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -13,7 +17,6 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-
       <a class="navbar-brand" href="#">
         <img src="Fotos/book-2x.png">
       </a>
@@ -46,8 +49,8 @@
   <!-- "Inicio da pág" -->
   <div class="row">
     <!-- Carousel -->
-    <div class="col-2"></div>
-    <div class="col-8">
+    <div class="col-1"></div>
+    <div class="col-10">
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -63,7 +66,7 @@
             <img class="d-block w-100" src="Fotos/holmes.jpg" alt="Quarto Slide">
           </div>
         </div>
-        <div class="col s2"></div>
+        <div class="col s1"></div>
         <!--
     <div class="carousel-item">
       <img class="d-block w-100" src="" alt="Terceiro Slide">
@@ -84,7 +87,6 @@
           <div class="card-body">
             <h5 class="card-title" style="color:#b71c1c;">Um Corpo na Biblioteca - Agatha Christie</h5>
             <p class="card-text" style="font-size:medium; font-family:'Times New Roman', Times, serif; ">Certa manhã, o coronel Arthur Bantry e sua esposa, Dolly, são acordados por uma criada que lhe traz uma inusitada notícia: há uma cadáver na biblioteca da casa. O corpo é de uma jovem exageradamente maquiada e vestida em trajes de noite, morta por extrangulamento. Ninguém ali jamais a viu antes. Os Bantry não conseguem imaginar quem ela seja, quem a matou, por que está ali e nem como isso aconteceu. O coronel chama a polícia, enquanto Dolly pede auxílio à sua amiga Miss Marple, cujo faro para resolução de crimes é a apuradíssimo.</p>
-
           </div>
         </div>
         <!-- carde 2-->

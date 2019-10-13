@@ -12,6 +12,7 @@ preco varchar (20),
 primary key (id)
 ) DEFAUlT CHARSET = utf8;
 
+/*
 CREATE TABLE output_images (
   imageId int(11) NOT NULL,
   imageType varchar(255) NOT NULL,
@@ -20,7 +21,7 @@ CREATE TABLE output_images (
 -- Indexes for table `output_images`
 ALTER TABLE output_images
   ADD PRIMARY KEY (imageId);
-
+*/
 insert into livros(isbn,titulo,autor,sobrenome,editora,preco)
 Values('978852096','Os Filhos do Imperador','Claire','Messud','Nova Frontera','35,00');
          

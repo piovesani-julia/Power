@@ -48,7 +48,7 @@
 
             </div>
             <div class="col-s5">
-                <h3>Lancamentos</h3><br>
+                <h3>Lancamentos - 2019</h3><br>
                 <div class="card  border-info">
                     <div class="card-body  text-info">
                         Minha Vida Fora de Série 5ºtemporada - 2019
@@ -71,8 +71,7 @@
             <div class="col"></div>
             <div class="col-s5">
                 <br><br><br>
-                <img src="Fotos/fmflb.jpg" alt="200px" width="200px" class="img-thumbnail">
-            </div><!-- utut -->
+                </div><!-- utut -->
         </div>
         <!--Fecha row-->
         <div class="row">
@@ -80,19 +79,19 @@
                 <br>
                 <div class="card  border-info">
                     <div class="card-body  text-info">
-                        Minha Vida Fora de Série 5ºtemporada - 2019
-                    </div>
+                        O Primeiro Imortal - Rodrigo N.Alvarez -Outubro 2019        
+                </div>
                 </div>
                 <br>
                 <div class="card  border-warning">
                     <div class="card-body  text-warning">
-                        Fazendo Meu Filme Lado B - 2019
+                    O Garfo, a Bruxa e o Dragão - Christopher Paolini
                     </div>
                 </div>
                 <br>
                 <div class="card  border-dark">
                     <div class="card-body  text-dark">
-                    Sob o Solo - Novembro 2019
+                    Sangue e Fogo: Vol. 1, Parte 2 - George R. R. Martin
                     </div>
                 </div>
             </div>
@@ -102,13 +101,15 @@
                 <br>
                 <div class="card  border-info">
                     <div class="card-body  text-info">
-                        Minha Vida Fora de Série 5ºtemporada - 2019
+                    A Floresta Das Árvores Retorcidas - 
+Alexandre Callari
                     </div>
                 </div>
                 <br>
                 <div class="card  border-warning">
                     <div class="card-body  text-warning">
-                        Fazendo Meu Filme Lado B - 2019
+                    As aventuras de Mike - 
+Gabriel Dearo
                     </div>
                 </div>
                 <br>

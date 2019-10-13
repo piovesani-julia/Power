@@ -5,44 +5,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- add materialize-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link rel="stylesheet" href="materialize/css/custon.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="../custon.css">
   <title>Power Livros</title>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
 
-<footer class="page-footer black">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="blue-text">Livraria Power </h5>
-                <p class="blue-text text-darken-4"><b>Livriria criada par fins educativos</b></p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <a href="nos.php"><h5 class="white-text"> Nós</h5></a>
-                <ul>
-                  <li>Ruahma</li>
-                  <li>Julia</li>
-                  <li>Lúcia</li>
-                  <li>Isadora</li>
-                  <li>Luigi</li>
-                </ul>
-              </div>
+      <a class="navbar-brand" href="#">
+        <img src="Fotos/book-2x.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.php">Home<span class="sr-only">(página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nos.php">Sobre nós</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Livros
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="lancamentos.php">Lançamentos</a>
+              <a class="dropdown-item" href="#">Mais procurados </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item disabled" href="#">Para Vestibular </a>
+              <a class="dropdown-item disabled" href="tabela.php">Todos os Livros</a>
             </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-                © 2019 Trabalho Escolar 
-            <a class="grey-text text-lighten-4 right" href="b/indexb.php">More Link</a>
-            </div>
-          </div>
-        </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/materialize/0.98.0/js/materialize.min.js"></script>
-  <script src="//cdn.shopify.com/s/files/1/1775/8583/t/1/assets/gallery.min.opt.js?0" crossorigin="anonymous"></script>
+          </li>
+      </div>
+  </nav><!-- Fim do menu -->
 </body>
 </html>

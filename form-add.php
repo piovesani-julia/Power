@@ -1,5 +1,5 @@
 <?php
-include_once 'conexao.php';
+include_once 'init.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -41,52 +41,27 @@ include_once 'conexao.php';
                 <div class="card-panel black">
                     <h1>Cadastrar Livros</h1>
                 </div>
-                <br />
+                <br/>
                 <hr><br />
                 <form action="add.php" method="POST">
                     <label>ISBN:</label>
-                    <input type="text" nome="isbn" placeholder="Digite o ISBN do livro"><br /><br />
+                    <input type="text" name="isbn" placeholder="Digite o ISBN do livro"><br /><br />
                     <label>Titulo:</label>
-                    <input type="text" nome="titulo" placeholder="Digite o título"><br />
+                    <input type="text" name="titulo" placeholder="Digite o título"><br />
                     <label>Autor:</label>
-                    <input type="text" nome="autor" placeholder="Digite o nome do autor"><br /><br />
+                    <input type="text" name="autor" placeholder="Digite o nome do autor"><br /><br />
                     <label>Sobrenome:</label>
-                    <input type="text" nome="sobrenome" placeholder="Digite o sobrenome do autor"><br /><br />
+                    <input type="text" name="sobrenome" placeholder="Digite o sobrenome do autor"><br /><br />
                     <label>Editora:</label>
-                    <input type="text" nome="editora" placeholder="Digite a editora">
+                    <input type="text" name="editora" placeholder="Digite a editora">
                     <label>Preço:</label>
-                    <input type="text" nome="preco" placeholder="Digite o Preço"><br /><br />
+                    <input type="text" name="preco" placeholder="Digite o Preço"><br /><br />
                     <a class="waves-effect waves-light btn-small"><input  name="SendCadImg" type="submit" value="Cadastrar"></a>
                 </form>
             </div>
             <div class="col s1"></div>
         </div>
     </div>
-    <footer class="page-footer black">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="blue-text">Livraria Power </h5>
-                    <p class="blue-text text-darken-4"><b>Livriria criada par fins educativos</b></p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text"></h5>
-                    <ul>
-                        <li>Ruahma</li>
-                        <li>Julia</li>
-                        <li>Lúcia</li>
-                        <li>Isadora</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2019 Trabalho Escolar
-                <a class="grey-text text-lighten-4 right" href="b/indexb.php">More Links</a>
-            </div>
-        </div>
-    </footer>
 </body>
 
 </html>
