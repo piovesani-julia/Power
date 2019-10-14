@@ -70,10 +70,18 @@
         </div>
         
     </div>
+    <div class="container">
     <div class="row">
       <div class="col">
-      <h3>Fale Conosco</h3>
+        <h3>Fale Conosco</h3>
+        <form action="" method="POST">
+          <label> Nome</label>
+          <input type="text" name="nome"><BR/>
+          <label >Email</label>
+          <input type="email" name="email" >
+        </form>
       </div>
+      <div class="col"></div>
     </div>
   </div><!-- Fecha o container-->
   

@@ -29,7 +29,6 @@ include_once 'init.php';
         }
     </style>
 </head>
-
 <body>
     <br />
     <br />

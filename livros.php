@@ -1,5 +1,5 @@
 <?php
-include_once './conexao.php';
+include_once './init.php';
 //Verifica se a pagina existe e
 $pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 1;
 $result = "SELECT * FROM livros";

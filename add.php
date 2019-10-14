@@ -12,14 +12,14 @@ $preco = isset($_POST['preco']) ? $_POST['preco'] : null;
 // validação (bem simples, só pra evitar dados vazios)
 if (empty($isbn) || empty($titulo) || empty($preco) ) {
     echo "Volte e preencha todos os campos<br/>";
-    echo "$isbn,$titulo,$autor,$sobrenome,$editora,$preco";
+    //echo "$isbn,$titulo,$autor,$sobrenome,$editora,$preco";
     exit;
 }
 $id = null;
 // insere no banco
 $PDO = db_connect();
-$sql = "INSERT INTO livros (id,isbn,titulo,autor,sobrenome,editora,preco) VALUES(:id,:isbn,:titulo,:autor,:sobrenome,:editora:preco)";
-$stmt = $PDO->prepare($sql);
+$query = "INSERT INTO livros (id,isbn,titulo,autor,sobrenome,editora,preco) VALUES(:id,:isbn,:titulo,:autor,:sobrenome,:editora:preco)";
+$stmt = $PDO->prepare($query);
 $stmt->bindParam(':id',$id);
 $stmt->bindParam(':isbn', $isbn);
 $stmt->bindParam(':titulo', $titulo);
@@ -27,10 +27,14 @@ $stmt->bindParam(':autor', $autor);
 $stmt->bindParam(':sobrenome', $sobrenome);
 $stmt->bindParam(':editora',$editora);
 $stmt->bindParam(':preco',$preco);
+$stmt->execute();
 
-if ($stmt->execute()) {
-    header('Location: index.php');
+
+
+/*
+if ($stmt != FALSE){
+    header('Location: livros.php');
 } else {
     echo "Erro ao cadastrar";
     print_r($stmt->errorInfo());
-}
+}*/

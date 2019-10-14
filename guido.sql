@@ -12,16 +12,13 @@ preco varchar (20),
 primary key (id)
 ) DEFAUlT CHARSET = utf8;
 
-/*
-CREATE TABLE output_images (
-  imageId int(11) NOT NULL,
-  imageType varchar(255) NOT NULL,
-  imageData longblob NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET= utf8;
--- Indexes for table `output_images`
-ALTER TABLE output_images
-  ADD PRIMARY KEY (imageId);
-*/
+ CREATE TABLE IF NOT EXISTS tbl_images (  
+  id int  NOT NULL AUTO_INCREMENT,  
+  name mediumblob NOT NULL,  
+  PRIMARY KEY (id)  
+ ) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+ 
+ 
 insert into livros(isbn,titulo,autor,sobrenome,editora,preco)
 Values('978852096','Os Filhos do Imperador','Claire','Messud','Nova Frontera','35,00');
          
@@ -38,13 +35,6 @@ Values ('9788520922538','Sherlock Holmes vol.1','Artur C.','Doye','Harper Collin
 			('9788565765015','A seleção','Kiera','Cass','Seguinte','40,00'),
 		    ('9788520922507','Sherlock Holmes vol.2','Artur C.','Dolye','Harper Collins','39,90'),
 			('9788535914061','Capitães da Areia ','Jorge','Amado','Companhia de Bolso ','25,50');
-            
-insert into livros(isbn,titulo,autor,sobrenome,editora)
-Values ('','','','',''),
-			('','','','',''),
-			('','','','',''),
-			('','','','',''),
-			('','','','','');
             
 select * from livros;
 drop database guido;
