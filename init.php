@@ -10,8 +10,10 @@
     error_reporting(E_ALL);
     date_default_timezone_set('America/Sao_Paulo');
 
-    function db_connect() {
-        $PDO = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8', DB_USER, DB_PASS);
-        return $PDO;
+    try{
+        $conn = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8', DB_USER, DB_PASS);
+    }catch(PDOException $e){
+        echo $e ->getMessage();
     }
+    
     

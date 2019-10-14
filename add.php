@@ -17,9 +17,8 @@ if (empty($isbn) || empty($titulo) || empty($preco) ) {
 }
 $id = null;
 // insere no banco
-$PDO = db_connect();
 $query = "INSERT INTO livros (id,isbn,titulo,autor,sobrenome,editora,preco) VALUES(:id,:isbn,:titulo,:autor,:sobrenome,:editora:preco)";
-$stmt = $PDO->prepare($query);
+$stmt = $conn->prepare($query);
 $stmt->bindParam(':id',$id);
 $stmt->bindParam(':isbn', $isbn);
 $stmt->bindParam(':titulo', $titulo);
@@ -27,14 +26,11 @@ $stmt->bindParam(':autor', $autor);
 $stmt->bindParam(':sobrenome', $sobrenome);
 $stmt->bindParam(':editora',$editora);
 $stmt->bindParam(':preco',$preco);
-$stmt->execute();
-
-
-
-/*
-if ($stmt != FALSE){
-    header('Location: livros.php');
-} else {
+$exe = $stmt->execute();
+if (! $exe){
     echo "Erro ao cadastrar";
-    print_r($stmt->errorInfo());
-}*/
+   // print_r($stmt->errorInfo());
+} else {
+
+    echo $stmt->rowCount()."Certinho";
+}
