@@ -49,8 +49,8 @@ include_once 'init.php';
                     <input type="text" name="titulo" placeholder="Digite o título"><br />
                     <label>Autor:</label>
                     <input type="text" name="autor" placeholder="Digite o nome do autor"><br /><br />
-                    <label>Sobrenome:</label>
-                    <input type="text" name="sobrenome" placeholder="Digite o sobrenome do autor"><br /><br />
+                    <label>Genero:</label>
+                    <input type="text" name="gereno" placeholder="Digite o genero  do livro "><br /><br />
                     <label>Editora:</label>
                     <input type="text" name="editora" placeholder="Digite a editora">
                     <label>Preço:</label>

@@ -4,7 +4,7 @@ require_once './init.php';
 $isbn =($_POST['isbn']) ? $_POST['isbn'] : null;
 $titulo = isset($_POST['titulo']) ? $_POST['titulo'] : null;
 $autor = isset($_POST['autor']) ? $_POST['autor'] : null;
-$sobrenome = isset($_POST['sobrenome']) ? $_POST['sobrenome'] : null;
+$genero = isset($_POST['genero']) ? $_POST['genero'] : null;
 $editora = isset($_POST['editora']) ? $_POST['editora'] : null;
 $preco = isset($_POST['preco']) ? $_POST['preco'] : null;
 
@@ -17,20 +17,17 @@ if (empty($isbn) || empty($titulo) || empty($preco) ) {
 }
 $id = null;
 // insere no banco
-$query = "INSERT INTO livros (id,isbn,titulo,autor,sobrenome,editora,preco) VALUES(:id,:isbn,:titulo,:autor,:sobrenome,:editora:preco)";
+$query = "INSERT INTO livros (isbn,titulo,autor,genero,editora,preco) VALUES(:isbn,:titulo,:autor,:genero,:editora,:preco)";
 $stmt = $conn->prepare($query);
-$stmt->bindParam(':id',$id);
 $stmt->bindParam(':isbn', $isbn);
 $stmt->bindParam(':titulo', $titulo);
 $stmt->bindParam(':autor', $autor);
-$stmt->bindParam(':sobrenome', $sobrenome);
+$stmt->bindParam(':genero', $genero);
 $stmt->bindParam(':editora',$editora);
 $stmt->bindParam(':preco',$preco);
-$exe = $stmt->execute();
-if (! $exe){
-    echo "Erro ao cadastrar";
-   // print_r($stmt->errorInfo());
+if ($stmt->execute()){
+    header('Location:tabela.php');
 } else {
-
-    echo $stmt->rowCount()."Certinho";
+    echo "Erro ao cadastrar";
+    print_r($stmt->errorInfo());
 }

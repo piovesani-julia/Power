@@ -41,7 +41,7 @@
               <a class="dropdown-item" href="#">Mais procurados </a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item disabled" href="#">Para Vestibular </a>
-              <a class="dropdown-item disabled" href="tabela.php">Todos os Livros</a>
+              <a class="dropdown-item disabled" href="#">Todos os Livros</a>
             </div>
           </li>
       </div>
