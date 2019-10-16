@@ -26,7 +26,7 @@ $stmt->bindParam(':genero', $genero);
 $stmt->bindParam(':editora',$editora);
 $stmt->bindParam(':preco',$preco);
 if ($stmt->execute()){
-    header('Location:tabela.php');
+    header('Location:form-add.php');
 } else {
     echo "Erro ao cadastrar";
     print_r($stmt->errorInfo());
