@@ -36,5 +36,13 @@ Values ('9788520922538','Sherlock Holmes vol.1','Artur C.','Doye','Harper Collin
 		    ('9788520922507','Sherlock Holmes vol.2','Artur C.','Dolye','Harper Collins','39,90'),
 			('9788535914061','Capitães da Areia ','Jorge','Amado','Companhia de Bolso ','25,50');
 */
+ create table msg(
+ id int primary key  auto_increment,
+ nome varchar(150) not null,
+ email varchar(100) not null,
+ mensagem varchar(1500) not null
+ )DEFAUlT CHARSET = utf8;
+ 
+ select * from msg;
 select * from livros;
 drop database guido;
