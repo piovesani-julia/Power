@@ -94,8 +94,12 @@ $num_paginas = ceil($num_total /$itens_por_pagina);
                             <span class="sr-only">Anterior</span>
                         </a>
                     </li>
-                    <?php for($i=0;$i<$num_paginas;$i++) {?>
-                    <li class="page-item"><a class="page-link" href="livros.php?pagina-<?php echo$i;?>"><?php echo $i+1;?></a></li>
+                    <?php for($i=0;$i<$num_paginas;$i++) {
+                        $estilo ="";
+                        if($pagina == $i)
+                            $estilo = "\" active\"";
+                        ?>
+                    <li class="page-item <?php echo $estilo?>"><a class="page-link" href="livros.php?pagina-<?php echo$i;?>"><?php echo $i+1;?></a></li>
                     <?php }?>
                     <a class="page-link" href="livros.php?pagina=<?php echo$num_paginas-1?>" aria-label="Próximo">
                             <span aria-hidden="true">&raquo;</span>
