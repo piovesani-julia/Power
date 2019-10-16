@@ -28,7 +28,7 @@ include_once './init.php';
     // codificação para acentos
     $conn->exec("set names utf8");
     //preparando consulta sql
-    $sql = "Select * from livros order by titulo ASC";
+    $sql = "Select * from msg";
     $result = $conn->query($sql);
     $livros = $result->fetchAll(PDO::FETCH_ASSOC);
     ?>
@@ -39,7 +39,7 @@ include_once './init.php';
             <div class="col s10">
                 <div class=" card-panel black blue-text text-darken-2">
                     <h2>Tabela De Registos</h2>
-                    <h4>Livros</h4>
+                    <h4>Mensagens</h4>
                 </div>
             </div>
             <div class="col s1"></div>
@@ -52,7 +52,7 @@ include_once './init.php';
                 <!--Menu-->
                 <hr>
                 <br />
-                <a class="waves-effect waves-light btn-small black" href="form-add.php">Adicionar Registro</a>
+                <!--<a class="waves-effect waves-light btn-small black" href="form-add.php">Adicionar Registro</a>-->
                 <br />
             </div>
             <div class="s5">
@@ -69,13 +69,9 @@ include_once './init.php';
                 <table class="centered striped  blue-grey lighten-1">
                     <thead>
                         <tr>
-                            <th>ISBN</th>
-                            <th>TÍTULO</th>
-                            <th>NOME (AUTOR)</th>
-                            <th>SOBRENOME (AUTOR)</th>
-                            <th>EDITORA</th>
-                            <th>REGISTRO DE CADASTRO</th>
-                            <th colspan="2">PREÇO </th>
+                            <th>Nome</th>
+                            <th>Email</th>
+                            <th colspan="3">MSG </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -83,16 +79,11 @@ include_once './init.php';
                         foreach ($livros as $livro) {
                             ?>
                             <tr>
-                                <td><?= $livro[isbn] ?></td>
-                                <td><?= $livro[titulo] ?></td>
-                                <td><?= $livro[autor] ?></td>
-                                <td><?= $livro[sobrenome] ?></td>
-                                <td><?= $livro[editora] ?></td>
-                                <td><?= $livro[id] ?></td>
-                                <td><?= $livro[preco] ?></td>
+                                <td><?= $livro[nome] ?></td>
+                                <td><?= $livro[email] ?></td>
+                                <td><?= $livro[mensagem] ?></td>
                                 <td>
-                                    <a href="form-edit.php?id=<?php echo $livro['id'] ?>">Editar</a>
-                                    <a href="delete.php?id=<?php echo $livro['id'] ?>">Remover</a>
+                                    <a href="del.php?id=<?php echo $livro['id'] ?>">Remover</a>
                                 </td>
                             </tr>
                         <?php
