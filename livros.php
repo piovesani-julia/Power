@@ -1,26 +1,23 @@
 <?php
 include_once './init.php';
-//Verifica se a pagina existe e
-$pagina = (isset($_GET['pagina'])) ? $_GET['pagina'] : 1;
-$result = "SELECT * FROM livros";
-$results = mysqli_query($con, $result);
+// De onde tirei ? https://youtu.be/hPsYf0BeHKk
 
-// contar livros
-$totali = mysqli_num_rows($results);
+//Definir itens por paginação
+$itens_por_pagina = 10;
 
-//Seta a Quantidade por página 
-$quantpg = 3;
+// pegar a pagina atual
+$pagina = intval($_GET['pagina']); 
 
-// Calcular a qtd nescessária de pag
-$numpg = ceil($totali / $quantpg);
+//puxar produtos
+$sql_code = "select editora, preco, titulo, autor, genero from livros LIMIT $pagina, $itens_por_pagina";
+$execute = $conn->query($sql_code) or die ($conn->error);
+$num = $execute->num_rows;
 
-// Calc inicio da visualização
-$ini = ($quantpg * $pagina) - $quantpg;
+//pega a quantidade de obj no BD
+$num_total = $conn->query("select editora, preco, titulo, autor, genero from livros")->num_rows;
 
-// Seleção de Itens 
-$resultlivros = "SELECT * FROM livros limit $ini, $quantpg";
-$resultsli = mysqli_query($conn, $resultlivros);
-$totali = mysqli_num_rows($resultsli);
+//Definir  numero de paginas
+$num_paginas = ceil($num_total /$itens_por_pagina);
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -69,23 +66,40 @@ $totali = mysqli_num_rows($resultsli);
     </nav><!-- Fim do menu -->
     <!-- Botoes para paginação -->
     <div class="row">
+        <div class="col"> 
+                <h2>Livros</h2>
+                <?php if($num > 0){ ?>
+                    <div>
+                        <?php do{?>
+                        <ul>
+                            <li>Editora: <?php echo $produtos['editora'] ?></li>
+                            <li>Preço: <?php echo $produtos['preco'] ?></li>
+                            <li>Título: <?php echo $produtos['titulo'] ?></li>
+                            <li>Autor: <?php echo $produtos['autor'] ?></li>
+                            <li>Genero: <?php echo $produtos['genero'] ?></li>
+                        </ul>
+                    </div>
+
+                <?php }while($produtos = $execute->fetch_assoc()); ?>
+        </div>
+    </div>
+    <div class="row">
         <div class="col"></div>
         <div class="col">
-            <nav aria-label="Page navigation example">
+            <nav aria-label="Navegação de página exemplo">
                 <ul class="pagination">
                     <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
+                        <a class="page-link" href="livros.php?pagina=0" aria-label="Anterior">
                             <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
+                            <span class="sr-only">Anterior</span>
                         </a>
                     </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
+                    <?php for($i=0;$i<$num_paginas;$i++) {?>
+                    <li class="page-item"><a class="page-link" href="livros.php?pagina-<?php echo$i;?>"><?php echo $i+1;?></a></li>
+                    <?php }?>
+                    <a class="page-link" href="livros.php?pagina=<?php echo$num_paginas-1?>" aria-label="Próximo">
                             <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
+                            <span class="sr-only">Próximo</span>
                         </a>
                     </li>
                 </ul>
@@ -94,5 +108,4 @@ $totali = mysqli_num_rows($resultsli);
         <div class="col"></div>
     </div>
 </body>
-
 </html>
